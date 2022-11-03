@@ -38,7 +38,7 @@ app.post('/api/notes', (req, res) => {
 
   fs.readFile(path.join(__dirname, './db/db.json'), (err, data) => {
     if (err) {
-      res.send('file could not be read.')
+      throw err;
     }
     else {
       const parsedData = JSON.parse(data)
@@ -49,7 +49,7 @@ app.post('/api/notes', (req, res) => {
       const stringify = JSON.stringify(parsedData);
       fs.writeFile(path.join(__dirname, './db/db.json'), stringify, (err) => {
         if (err) {
-          res.send('file could not be written.')
+          throw err;
         }
         else {
           res.send('success! file written.')
@@ -57,8 +57,6 @@ app.post('/api/notes', (req, res) => {
       })
     }
   });
-
-  res.send(req.body);
 });
 
 
