@@ -1,1 +1,34 @@
-[{"title":"Test Title","text":"Test text"},{"title":"Note","text":""},{"title":"whatever","text":"something"},{"title":"whatever","text":"something"},{"title":"add","text":"pn"},{"title":"new ","text":"noete"},{"title":"ksjdf","text":"sf s"},{"title":"Note Taker","text":"This is my newest application!\n\n- Petar V."}]
+[
+    {
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "title": "Note",
+        "text": ""
+    },
+    {
+        "title": "whatever",
+        "text": "something"
+    },
+    {
+        "title": "whatever",
+        "text": "something"
+    },
+    {
+        "title": "add",
+        "text": "pn"
+    },
+    {
+        "title": "new ",
+        "text": "noete"
+    },
+    {
+        "title": "ksjdf",
+        "text": "sf s"
+    },
+    {
+        "title": "Note Taker",
+        "text": "This is my newest application!\n\n- Petar V."
+    }
+]
