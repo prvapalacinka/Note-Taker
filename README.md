@@ -9,6 +9,12 @@ Users are able to write new notes and save them to their local device. New notes
 ------
 
 ## Links
+
+### Heroku deployed app link:
+
+https://note-taker-pv.herokuapp.com/
+
+### Other related links:
 https://github.com/prvapalacinka/Note-Taker
 
 https://prvapalacinka.github.io/Note-Taker/
